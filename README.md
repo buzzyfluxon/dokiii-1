@@ -1,28 +1,59 @@
 <p align="center">
-  <img src="assets/hero-banner.jpg" alt="DOKIII Preview" width="100%" />
+  <img src="assets/showcase-banner.png" alt="DOKIII Preview" width="100%" />
 </p>
 
-<h1 align="center">DOKIII</h1>
+<h1 align="center">🐾 dokiii</h1>
 
 <p align="center">
-  A clean macOS-inspired dock, floating music player, and desktop widgets for Windows.
+  <em>your music, always there.</em><br/>
+  A clean macOS-inspired dock, floating music player, and beautiful desktop widgets for Windows.
 </p>
 
 <p align="center">
   <a href="https://github.com/fluxonbuzz/dokiii/releases/latest">
-    <img src="https://img.shields.io/github/v/release/fluxonbuzz/dokiii?style=flat-square" alt="Latest Release" />
+    <img src="https://img.shields.io/github/v/release/fluxonbuzz/dokiii?style=for-the-badge&color=b39ddb&label=version" alt="Latest Release" />
   </a>
   <a href="https://github.com/fluxonbuzz/dokiii/releases">
-    <img src="https://img.shields.io/github/downloads/fluxonbuzz/dokiii/total?style=flat-square" alt="Downloads" />
+    <img src="https://img.shields.io/github/downloads/fluxonbuzz/dokiii/total?style=for-the-badge&color=b39ddb&label=downloads" alt="Downloads" />
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/badge/license-MIT-b39ddb?style=for-the-badge" alt="License" />
   </a>
+  <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-b39ddb?style=for-the-badge" alt="Platform" />
+</p>
+
+<p align="center">
+  <b>simple. smooth. dokiii.</b> ✨
 </p>
 
 ---
 
-## What It Does
+## ⬇️ Download
+
+<table align="center">
+<tr>
+<td align="center" width="260">
+<a href="https://github.com/fluxonbuzz/dokiii/releases/latest/download/DOKIII.exe">
+<img src="https://img.shields.io/badge/⬇_Download-DOKIII.exe-b39ddb?style=for-the-badge&logo=windows&logoColor=white" alt="Download DOKIII.exe" />
+</a>
+<br/><sub>Standalone installer &nbsp;•&nbsp; Windows 10/11 x64</sub>
+</td>
+<td align="center" width="260">
+<a href="https://github.com/fluxonbuzz/dokiii/releases/latest">
+<img src="https://img.shields.io/badge/📦_Download-Portable_ZIP-b39ddb?style=for-the-badge&logo=windows&logoColor=white" alt="Download Portable ZIP" />
+</a>
+<br/><sub>No install needed &nbsp;•&nbsp; Just unzip and run</sub>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  Prefer to see every version? Check the <a href="https://github.com/fluxonbuzz/dokiii/releases">full Releases page</a>.
+</p>
+
+---
+
+## 🐱 What It Does
 
 DOKIII brings a smooth, modern desktop experience to Windows:
 
@@ -31,19 +62,7 @@ DOKIII brings a smooth, modern desktop experience to Windows:
 - **Desktop Widgets**: Clean, glanceable widgets on your desktop for world time, analog clock, calendar, system health (CPU, RAM, SSD), battery, and volume.
 - **Light on Resources**: Engineered to stay around 1-2% idle CPU usage so your PC stays fast and quiet.
 
----
-
-## Downloads
-
-Get the latest version for Windows 10 and 11 from the Releases page:
-
-- **[Download Latest Release (v1.0.0)](https://github.com/fluxonbuzz/dokiii/releases/latest)**
-  - Standalone executable: `DOKIII.exe`
-  - Portable zip package: `DOKIII-v1.0.0-windows-x64.zip`
-
----
-
-## Screenshots
+## 📸 Screenshots
 
 <p align="center">
   <img src="assets/dock-overview.png" alt="DOKIII Dock and Downloads" width="100%" />
@@ -75,7 +94,7 @@ Get the latest version for Windows 10 and 11 from the Releases page:
 
 ---
 
-## How to Use
+## 🎀 How to Use
 
 ### Getting Started
 1. Download `DOKIII.exe` from [Releases](https://github.com/fluxonbuzz/dokiii/releases/latest).
@@ -99,7 +118,7 @@ Get the latest version for Windows 10 and 11 from the Releases page:
 
 ---
 
-## Building from Source
+## 🛠️ Building from Source
 
 If you want to run or build DOKIII locally:
 
@@ -126,6 +145,6 @@ The packaged executable will be generated in the `release/` directory.
 
 ---
 
-## License
+## 📄 License
 
 MIT License
