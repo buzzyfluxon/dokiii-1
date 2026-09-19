@@ -1,57 +1,131 @@
-# DOKIII
+<p align="center">
+  <img src="assets/hero-banner.jpg" alt="DOKIII Preview" width="100%" />
+</p>
 
-DOKIII is a sleek macOS-inspired desktop dock and active widget system for Windows.
+<h1 align="center">DOKIII</h1>
 
-## Features
+<p align="center">
+  A clean macOS-inspired dock, floating music player, and desktop widgets for Windows.
+</p>
 
-- macOS-style animated dock with fluid magnification
-- DOKIII Halo desktop status bar and media overlay
-- Customizable desktop widgets (World Clock, Analog Clock, Calendar, System Monitor, Battery, System Controls)
-- Windows Global System Media Transport Controls (GSMTC) integration
-- Ultra-low idle resource consumption (~1-2% idle CPU)
-- Multi-orientation dock placement (Bottom, Left, Right)
-- Silent startup mode for Windows boot
+<p align="center">
+  <a href="https://github.com/fluxonbuzz/dokiii/releases/latest">
+    <img src="https://img.shields.io/github/v/release/fluxonbuzz/dokiii?style=flat-square" alt="Latest Release" />
+  </a>
+  <a href="https://github.com/fluxonbuzz/dokiii/releases">
+    <img src="https://img.shields.io/github/downloads/fluxonbuzz/dokiii/total?style=flat-square" alt="Downloads" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License" />
+  </a>
+</p>
 
-## Installation & Releases
+---
 
-Download the latest packaged Windows release (`DOKIII-v*.zip` or `DOKIII.exe`) from the Releases page.
+## What It Does
 
-Extract and run `DOKIII.exe`.
+DOKIII brings a smooth, modern desktop experience to Windows:
 
-## Development
+- **macOS-Style Dock**: An animated bottom or side dock with fluid magnification, app badges, and quick folder access (including your Downloads folder and Trash).
+- **DOKIII Halo and Floating Music**: See your current song, artist, and album art from Spotify and Windows media players with one-click playback controls.
+- **Desktop Widgets**: Clean, glanceable widgets on your desktop for world time, analog clock, calendar, system health (CPU, RAM, SSD), battery, and volume.
+- **Light on Resources**: Engineered to stay around 1-2% idle CPU usage so your PC stays fast and quiet.
 
-Prerequisites:
-- Node.js 18 or later
+---
+
+## Downloads
+
+Get the latest version for Windows 10 and 11 from the Releases page:
+
+- **[Download Latest Release (v1.0.0)](https://github.com/fluxonbuzz/dokiii/releases/latest)**
+  - Standalone executable: `DOKIII.exe`
+  - Portable zip package: `DOKIII-v1.0.0-windows-x64.zip`
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/dock-overview.png" alt="DOKIII Dock and Downloads" width="100%" />
+</p>
+
+<p align="center">
+  <em>macOS-style dock with app shortcuts, quick downloads access, and trash</em>
+</p>
+
+<br />
+
+<p align="center">
+  <img src="assets/desktop-widgets.png" alt="Desktop Widgets" width="100%" />
+</p>
+
+<p align="center">
+  <em>Glanceable desktop widgets for system stats, clock, calendar, and battery</em>
+</p>
+
+<br />
+
+<p align="center">
+  <img src="assets/control-center.png" alt="Control Center and Settings" width="100%" />
+</p>
+
+<p align="center">
+  <em>DOKIII Control Center for customizing widgets, dock magnification, and positions</em>
+</p>
+
+---
+
+## How to Use
+
+### Getting Started
+1. Download `DOKIII.exe` from [Releases](https://github.com/fluxonbuzz/dokiii/releases/latest).
+2. Launch the app. The dock and widgets will appear immediately on your desktop.
+
+### Using the Dock
+- **Launch Apps**: Click any icon on the dock to open the app.
+- **Add Apps**: Click the **+** button on the dock to search installed programs or browse for an `.exe` on your PC.
+- **Access Downloads**: Click the downloads folder icon on the right side of the dock to quickly view or open recent files.
+- **Move the Dock**: Open Settings to position the dock on the bottom, left, or right edge of your screen.
+
+### Music and Halo
+- Play music in Spotify or any Windows media app.
+- The floating player and top Halo bar update automatically with track details and album art.
+- Click the player to pause, play, or skip tracks. Click outside to collapse.
+
+### Desktop Widgets
+- Open the **DOKIII Control Center** by clicking the DOKIII logo or using the system tray icon.
+- Toggle desktop widgets on or off with a single switch.
+- Choose which widgets you want to show (System Monitor, Clocks, Calendar, Battery, Volume).
+
+---
+
+## Building from Source
+
+If you want to run or build DOKIII locally:
+
+### Requirements
+- Windows 10 or 11
+- Node.js 18 or newer
 - npm
-- Windows 10/11
 
-Clone and install:
+### Quick Start
 ```bash
 git clone https://github.com/fluxonbuzz/dokiii.git
 cd dokiii
 npm install
-```
-
-Development server:
-```bash
 npm run dev
 ```
 
-Typecheck:
-```bash
-npm run typecheck
-```
-
-Build:
+### Build Executable
 ```bash
 npm run build
-```
-
-Package Windows executable:
-```bash
 npm run pack
 ```
 
+The packaged executable will be generated in the `release/` directory.
+
+---
+
 ## License
 
-MIT
+MIT License
